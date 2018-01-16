@@ -25,8 +25,10 @@ h1 {
 
 .gallery-image {
     display: block;
-
+    width: 100%;
 }
+
+
 
 h3 {
     padding: 10px;
@@ -34,16 +36,31 @@ h3 {
 p {
     padding: 10px;
 }
+
+
 .about {
-    display: block;
-    padding: 10px;
-    width: 800px;
-    height: 531px;
+    height: 1366px;
+    width: 768px;
+    background-color: green;
 }
 
 
-.contact {
-    display: block;
-    padding: 10px;
-    width: 800px;
-    height: 531px;}
+
+
+
+
+
+
+
+/* #Lean overlay from http://leanmodal.finelysliced.com.au/# */
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
